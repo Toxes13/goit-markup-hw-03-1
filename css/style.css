@@ -35,8 +35,8 @@ body {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    /*padding-left: 15px;
+    padding-right: 15px;*/
     display: flex;
 }
 
@@ -106,6 +106,8 @@ body {
 .page-header{
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
     border-bottom: 1px solid #E7E9FC;
 }
 /* ======== /HEADER STYLES ======== */
@@ -137,13 +139,13 @@ body {
 
 /* ======== HERO STYLES ======== */
 .hero {
-    background: var(--NAVY-BLUE, #2E2F42);
     width: 1440px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 188px;
     padding-bottom: 188px;
+    background: var(--NAVY-BLUE, #2E2F42);
 }
 
 .hero-title {
@@ -181,6 +183,10 @@ body {
 /* ======== ABOUT COMPANY STYLES ======== */
 .company {
     background: #FFFFFF;
+    width: 1440px;
+    height: 344px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .company-title {
@@ -188,6 +194,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -197,10 +204,19 @@ body {
     letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
 }
+
+.company-menu {
+    display: flex;
+    column-gap: 24px;
+}
 /* ======== /ABOUT COMPANY STYLES ======== */
 
 /* ========  OUR TEAM STYLES ======== */
 .team {
+    width: 1440px;
+    height: 732px;
+    margin-left: auto;
+    margin-right: auto;
     background: var(--CLOUD, #F4F4FD);
 }
 
@@ -211,6 +227,8 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    display: block;
+    margin-bottom: 72px;
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -220,6 +238,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -228,26 +247,34 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 32px;
     color: var(--SLATE, #434455);
 }
 
 .team-item {
+    border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
 }
 
 .team-menu {
     display: flex;
     column-gap: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+
+.team-img {
+    margin-bottom: 32px;
 }
 /* ======== /OUR TEAM STYLES ======== */
 
 /* ======== PORTFOLIO STYLES ======== */
 .portfolio {
+    width: 1440px;
+    height: 1552px;
+    margin-right: auto;
+    margin-left: auto;
     background: #FFFFFF;
-}
-
-.portfolio-item {
-    background: var(--WHITE, #FFFFFF);
 }
 
 .portfolio-title-section {
@@ -257,6 +284,8 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    display: block;
+    margin-bottom: 72px;
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -275,6 +304,11 @@ body {
     color: var(--SLATE, #434455);
 }
 
+.portfolio .container{
+    width: 1128px;
+    height: 1000px;
+}
+
 .portfolio-menu {
     display: flex;
     flex-wrap: wrap;
@@ -285,6 +319,10 @@ body {
 
 /* ======== FOOTER STYLES ======== */
 .page-footer {
+    width: 1440px;
+    height: 312px;
+    margin-right: auto;
+    margin-left: auto;
     background: var(--NAVY-BLUE, #2E2F42);
 }
 .page-logo-footer {
