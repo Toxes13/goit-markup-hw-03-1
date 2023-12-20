@@ -68,6 +68,7 @@ body {
     text-transform: uppercase;
     color: var(--IRIS, #4D5AE5);
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .page-logo-header-span {
@@ -90,10 +91,6 @@ body {
 
 .menu-item {
     gap:40px
-}
-
-.menu {
-    padding: 24px 0;
 }
 
 .page-navigator {
@@ -222,9 +219,6 @@ body {
     gap: 24px;
 }
 
-.company-item {
-    width: calc((100% - 72px) / 4);
-}
 /* ======== /ABOUT COMPANY STYLES ======== */
 
 /* ========  OUR TEAM STYLES ======== */
@@ -265,6 +259,7 @@ body {
 }
 
 .team-item {
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
 }
@@ -276,11 +271,9 @@ body {
 
 .team-content {
     text-align: center;
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
-.team .container {
-    padding: 32px 0;
 }
 /* ======== /OUR TEAM STYLES ======== */
 
