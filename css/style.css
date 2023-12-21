@@ -68,7 +68,6 @@ body {
     text-transform: uppercase;
     color: var(--IRIS, #4D5AE5);
     margin-right: 76px;
-    padding: 24px 0;
 }
 
 .page-logo-header-span {
@@ -88,10 +87,11 @@ body {
 .menu-link:focus {
      color: #404BBF; 
 }
-
+/*
 .menu-item {
     gap:40px
-}
+    padding: 24px 0;
+}*/
 
 .page-navigator {
     align-items: center;
@@ -101,6 +101,7 @@ body {
 .page-navigator .menu {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .page-header .container {
@@ -143,10 +144,10 @@ body {
 
 /* ======== HERO STYLES ======== */
 .hero {
-    width: 1440px;
+    /*width: 1440px;
     height: 600px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
     padding-top: 188px;
     padding-bottom: 188px;
     background: var(--NAVY-BLUE, #2E2F42);
@@ -190,13 +191,6 @@ body {
 /* ======== /HERO STYLES ======== */
 
 /* ======== ABOUT COMPANY STYLES ======== */
-.company {
-    background: #FFFFFF;
-    width: 1440px;
-    height: 344px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .company-title {
     font-size: 20px;
@@ -219,14 +213,18 @@ body {
     gap: 24px;
 }
 
+.company-item {
+    width: 264px;
+}
+
 /* ======== /ABOUT COMPANY STYLES ======== */
 
 /* ========  OUR TEAM STYLES ======== */
 .team {
-    width: 1440px;
+   /* width: 1440px;
     height: 732px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
     background: var(--CLOUD, #F4F4FD);
 }
 
@@ -274,7 +272,7 @@ body {
     padding: 32px 0;
 }
 
-}
+
 /* ======== /OUR TEAM STYLES ======== */
 
 /* ======== PORTFOLIO STYLES ======== */
@@ -333,10 +331,10 @@ body {
 
 /* ======== FOOTER STYLES ======== */
 .page-footer {
-    width: 1440px;
+    /*width: 1440px;
     height: 312px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto;*/
     padding-top: 100px;
     padding-bottom: 100px;
     background: var(--NAVY-BLUE, #2E2F42);
