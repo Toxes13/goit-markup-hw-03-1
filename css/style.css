@@ -87,11 +87,11 @@ body {
 .menu-link:focus {
      color: #404BBF; 
 }
-/*
+
 .menu-item {
     gap:40px
     padding: 24px 0;
-}*/
+
 
 .page-navigator {
     align-items: center;
