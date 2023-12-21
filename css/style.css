@@ -90,13 +90,11 @@ body {
 
 .menu-item {
     gap:40px
-    padding: 24px 0;
 }
 
 .page-navigator {
     align-items: center;
     display: flex;
-    padding: 24px 0;
 }
 
 .page-navigator .menu {
