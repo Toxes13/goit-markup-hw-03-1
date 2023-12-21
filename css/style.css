@@ -90,7 +90,7 @@ body {
 
 .menu-item {
     gap:40px
-   /* padding: 24px 0;*/
+    padding: 24px 0;
 }
 
 .page-navigator {
